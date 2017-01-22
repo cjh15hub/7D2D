@@ -694,6 +694,7 @@
 	<item name="sniperRifleSchematic"/>
 	<item name="theEnforcerMagazine"/>
 	<item name="nailgunSchematic"/>
+	<item name="theWonderfulJoysOfCheese"/>
 	<item group="questChallenge" count="1"/>
 	<!--
 	<item name="handleBarsSchematic"/>
@@ -840,8 +841,8 @@
 	<item name="electricParts" count="1,2" prob=".05"/>
 	<item name="potassiumNitratePowder" count="2,6" prob=".15"/>
 	<!-- added in FoodsMod -->
-	<item name="mesophilicCultures" count="1,4"/>
-	<item name="rennet" count="1,4" prob="0.3"/>
+	<item name="mesophilicCultures" count="1,4" prob=".3"/>
+	<item name="rennet" count="1,4" prob="0.2"/>
 </lootgroup>
 
 <lootgroup name="rareOres"> <!-- 907 average -->

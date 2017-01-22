@@ -7501,6 +7501,14 @@ which does not exist, yet. -->
 		</property>
 	</item>
 
+	<item id="1026" name="theWonderfulJoysOfCheese">
+		<!-- ironArmorSchematic -->
+		<property name="Extends" value="schematicMaster" />
+		<property class="Action1">
+			<property name="Recipes_to_learn" value="cheese" />
+		</property>
+	</item>
+
 	<!-- * * * * * * * * * * quests * * * * * * * * * * -->
 
 	<item id="1150" name="questMaster">
@@ -9340,8 +9348,8 @@ which does not exist, yet. -->
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="0" />
 			<property name="Gain_stamina" value="20" />
-			<property name="Gain_food" value="12" />
-			<property name="Gain_water" value="12" />
+			<property name="Gain_food" value="7" />
+			<property name="Gain_water" value="9" />
 			<property name="Sound_start" value="UseActions/player_eating" />
 			<property name="Create_item" value="emptyJar" />
 		</property>
@@ -9362,7 +9370,7 @@ which does not exist, yet. -->
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="5" />
-			<property name="Gain_food" value="50" />
+			<property name="Gain_food" value="40" />
 			<property name="Gain_water" value="0" />
 			<property name="Gain_wellness" value="1" />
 			<property name="Sound_start" value="UseActions/player_eating" />
@@ -9431,7 +9439,7 @@ which does not exist, yet. -->
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="1" />
-			<property name="Gain_food" value="50" />
+			<property name="Gain_food" value="40" />
 			<property name="Gain_water" value="0" />
 			<property name="Gain_wellness" value="1" />
 			<property name="Create_item" value="bowl" />
@@ -9458,10 +9466,10 @@ which does not exist, yet. -->
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="5" />
-			<property name="Gain_food" value="15" />
-			<property name="Gain_water" value="20" />
-			<property name="Gain_stamina" value="20" />
-			<property name="Gain_wellness" value="2" />
+			<property name="Gain_food" value="10" />
+			<property name="Gain_water" value="15" />
+			<property name="Gain_stamina" value="15" />
+			<property name="Gain_wellness" value="1.2" />
 			<property name="Create_item" value="bowl" />
 			<property name="Sound_start" value="UseActions/player_eating" />
 		</property>
@@ -9504,8 +9512,8 @@ which does not exist, yet. -->
 			<property name="Class" value="Eat" />
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
-			<property name="Gain_health" value="20" />
-			<property name="Gain_food" value="30" />
+			<property name="Gain_health" value="15" />
+			<property name="Gain_food" value="25" />
 			<property name="Gain_water" value="3" />
 			<property name="Create_item" value="bowl" />
 			<property name="Sound_start" value="UseActions/player_drinking" />
@@ -9529,8 +9537,8 @@ which does not exist, yet. -->
 			<property name="Class" value="Eat" />
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
-			<property name="Gain_health" value="20" />
-			<property name="Gain_food" value="30" />
+			<property name="Gain_health" value="15" />
+			<property name="Gain_food" value="25" />
 			<property name="Gain_water" value="2" />
 			<property name="Create_item" value="bowl" />
 			<property name="Sound_start" value="UseActions/player_drinking" />
@@ -9555,7 +9563,7 @@ which does not exist, yet. -->
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="5" />
-			<property name="Gain_food" value="30" />
+			<property name="Gain_food" value="25" />
 			<property name="Gain_water" value="2" />
 			<property name="Create_item" value="bowl" />
 			<property name="Sound_start" value="UseActions/player_drinking" />
@@ -9831,7 +9839,7 @@ which does not exist, yet. -->
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="23" />
-			<property name="Gain_food" value="35" />
+			<property name="Gain_food" value="30" />
 			<property name="Gain_water" value="6" />
 			<property name="Gain_wellness" value="1" />
 			<property name="Create_item" value="bowl" />
@@ -9857,8 +9865,8 @@ which does not exist, yet. -->
 			<property name="Class" value="Eat" />
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
-			<property name="Gain_health" value="25" />
-			<property name="Gain_food" value="33" />
+			<property name="Gain_health" value="20" />
+			<property name="Gain_food" value="28" />
 			<property name="Gain_water" value="3" />
 			<property name="Gain_wellness" value="1" />
 			<property name="Create_item" value="bowl" />
@@ -9885,9 +9893,9 @@ which does not exist, yet. -->
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="13" />
-			<property name="Gain_food" value="33" />
+			<property name="Gain_food" value="28" />
 			<property name="Gain_water" value="5" />
-			<property name="Gain_wellness" value="1" />
+			<property name="Gain_wellness" value=".8" />
 			<property name="Create_item" value="bowl" />
 			<property name="Sound_start" value="UseActions/player_drinking" />
 			<property name="Buff" value="stewWarming" />
@@ -10090,9 +10098,9 @@ which does not exist, yet. -->
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="1" />
-			<property name="Gain_food" value="10" />
+			<property name="Gain_food" value="5" />
 			<property name="Gain_water" value="0" />
-			<property name="Gain_wellness" value="0.6" />
+			<property name="Gain_wellness" value="0.2" />
 			<property name="Sound_start" value="UseActions/player_eating" />
 		</property>
 		<property name="Group" value="Food/Cooking" />
@@ -10112,9 +10120,9 @@ which does not exist, yet. -->
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="2" />
-			<property name="Gain_food" value="23" />
+			<property name="Gain_food" value="10" />
 			<property name="Gain_water" value="1" />
-			<property name="Gain_wellness" value="1" />
+			<property name="Gain_wellness" value=".7" />
 			<property name="Sound_start" value="UseActions/player_eating" />
 		</property>
 		<property name="Group" value="Food/Cooking" />
@@ -10158,7 +10166,7 @@ which does not exist, yet. -->
 			<property name="Delay" value="1.0" />
 			<property name="Gain_health" value="3" />
 			<property name="Gain_food" value="25" />
-			<property name="Gain_wellness" value="1.8" />
+			<property name="Gain_wellness" value="1.5" />
 			<property name="Sound_start" value="UseActions/player_eating" />
 		</property>
 		<property name="Group" value="Food/Cooking" />
@@ -10219,7 +10227,7 @@ which does not exist, yet. -->
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="4" />
 			<property name="Gain_stamina" value="5" />
-			<property name="Gain_food" value="22" />
+			<property name="Gain_food" value="25" />
 			<property name="Gain_water" value="-1" />
 			<property name="Gain_wellness" value="0.8" />
 			<property name="Sound_start" value="UseActions/player_eating" />
@@ -10239,7 +10247,7 @@ which does not exist, yet. -->
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="5" />
 			<property name="Gain_stamina" value="5" />
-			<property name="Gain_food" value="25" />
+			<property name="Gain_food" value="29" />
 			<property name="Gain_water" value="0" />
 			<property name="Gain_wellness" value="1.2" />
 			<property name="Sound_start" value="UseActions/player_eating" />
@@ -10258,7 +10266,7 @@ which does not exist, yet. -->
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="1" />
 			<property name="Gain_food" value="10" />
-			<property name="Gain_water" value="0" />
+			<property name="Gain_water" value="-1" />
 			<property name="Gain_wellness" value="0" />
 			<property name="Sound_start" value="UseActions/player_eating" />
 		</property>
@@ -10278,7 +10286,7 @@ which does not exist, yet. -->
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="10" />
-			<property name="Gain_food" value="38" />
+			<property name="Gain_food" value="40" />
 			<property name="Gain_water" value="5" />
 			<property name="Gain_wellness" value="2" />
 			<property name="Sound_start" value="UseActions/player_eating" />
@@ -10301,7 +10309,7 @@ which does not exist, yet. -->
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="10" />
-			<property name="Gain_food" value="40" />
+			<property name="Gain_food" value="45" />
 			<property name="Gain_water" value="5" />
 			<property name="Gain_wellness" value="2" />
 			<property name="Sound_start" value="UseActions/player_eating" />
@@ -10349,7 +10357,7 @@ which does not exist, yet. -->
 		<property name="Group" value="Food/Cooking" />
 	</item>
 	
-	<item id="1843" name="Cheese">
+	<item id="1843" name="cheese">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab" />
 		<property name="Material" value="organic" />
 		<property name="HoldType" value="31" />
