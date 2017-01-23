@@ -1536,6 +1536,8 @@
 	<item name="drinkEnergy"/>
 	<item name="waterPurified"/>
 	<item name="megaCrush" prob=".045"/>
+	<!-- food mod -->
+	<item name="bottledMilk"/>
 </lootgroup>
 
 <lootgroup name="carFood" count="1">
