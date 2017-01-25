@@ -695,7 +695,7 @@
 	<item name="theEnforcerMagazine"/>
 	<item name="nailgunSchematic"/>
 	<item group="questChallenge" count="1"/>
-	<!-- food mod -->
+	<!-- FoodsMod -->
 	<item name="cheeseBook"/>
 
 	<item name="homeDIYBook2" prob=".85"/>
@@ -801,7 +801,7 @@
 	<item name="pineSeed" prob="0.3"/>
 	<item name="mapleSeed" prob="0.3"/>
 	<item name="blueSpruceSeed" prob="0.3"/>
-	<!-- foods mod -->
+	<!-- FoodsMod -->
 	<item name="tomatoSeed" />
 	<item name="lettuceSeed" />
 </lootgroup>
@@ -821,8 +821,9 @@
 	<item name="corn"/>
 	<item name="potato"/>
 	<item name="blueberries"/>
-	<!-- foods mod -->
+	<!-- FoodsMod -->
 	<item name="cheese" count="1,2" prob="0.3" />
+	<item name="bottledMilk" />
 </lootgroup>
 
 <lootgroup name="farmCrops">
@@ -832,7 +833,7 @@
 	<item name="cottonPlant"/>
 	<item name="coffeeBeans"/>
 	<item name="goldenrodPlant"/>
-	<!-- foods mod -->
+	<!-- FoodsMod -->
 	<item name="tomato" />
 	<item name="lettuce" />
 </lootgroup>
