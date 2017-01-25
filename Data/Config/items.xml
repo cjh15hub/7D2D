@@ -9019,7 +9019,7 @@ which does not exist, yet. -->
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="5" />
-			<property name="Gain_food" value="50" />
+			<property name="Gain_food" value="20" />
 			<property name="Gain_water" value="0" />
 			<property name="Gain_wellness" value="1" />
 			<property name="Sound_start" value="UseActions/player_eating" />
@@ -9088,7 +9088,7 @@ which does not exist, yet. -->
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="1" />
-			<property name="Gain_food" value="50" />
+			<property name="Gain_food" value="20" />
 			<property name="Gain_water" value="0" />
 			<property name="Gain_wellness" value="1" />
 			<property name="Create_item" value="bowl" />
@@ -9852,10 +9852,10 @@ which does not exist, yet. -->
 		<property name="Class" value="Eat" />
 		<property name="Delay" value="2.1" />
 		<property name="Use_time" value="..." />
-		<property name="Gain_health" value="2" />
+		<property name="Gain_health" value="1" />
 		<property name="Gain_food" value="20" />
 		<property name="Gain_water" value="-1" />
-		<property name="Gain_wellness" value="0.5" />
+		<property name="Gain_wellness" value="0.8" />
 		<property name="Sound_start" value="UseActions/player_eating" />
 	</property>
 	<property name="Smell" value="exLargeSmell" />
@@ -9871,8 +9871,7 @@ which does not exist, yet. -->
 		<property name="Class" value="Eat" />
 		<property name="Delay" value="2.1" />
 		<property name="Use_time" value="..." />
-		<property name="Gain_health" value="4" />
-		<property name="Gain_stamina" value="5" />
+		<property name="Gain_health" value="3" />
 		<property name="Gain_food" value="22" />
 		<property name="Gain_water" value="-1" />
 		<property name="Gain_wellness" value="0.8" />
@@ -9892,8 +9891,7 @@ which does not exist, yet. -->
 		<property name="Delay" value="2.1" />
 		<property name="Use_time" value="..." />
 		<property name="Gain_health" value="5" />
-		<property name="Gain_stamina" value="5" />
-		<property name="Gain_food" value="25" />
+		<property name="Gain_food" value="30" />
 		<property name="Gain_water" value="0" />
 		<property name="Gain_wellness" value="1.2" />
 		<property name="Sound_start" value="UseActions/player_eating" />
@@ -9992,16 +9990,16 @@ which does not exist, yet. -->
 		<property name="Delay" value="2.1" />
 		<property name="Use_time" value="..." />
 		<property name="Gain_health" value="2" />
-		<property name="Gain_food" value="25" />
+		<property name="Gain_food" value="30" />
 		<property name="Gain_water" value="-1" />
-		<property name="Gain_wellness" value="0.5" />
+		<property name="Gain_wellness" value="1.6" />
 		<property name="Sound_start" value="UseActions/player_eating" />
 	</property>
 	<property name="Smell" value="exLargeSmell" />
 	<property name="Group" value="Food/Cooking" />
 </item>
 
-<!-- food mod -->
+<!-- FoodsMod -->
 <item id="1843" name="cheese">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab" />
 		<property name="Material" value="organic" />

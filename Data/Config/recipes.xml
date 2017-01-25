@@ -2677,7 +2677,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="dinnerPlate" count="1"/>
 </recipe>
 <recipe name="mealDinner" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot">
-	<ingredient name="rawMeat" count="5"/>
+	<ingredient name="rawMeat" count="3"/>
 	<ingredient name="corn" count="1"/>
 	<ingredient name="potato" count="1"/>
 	<ingredient name="dinnerPlate" count="1"/>
