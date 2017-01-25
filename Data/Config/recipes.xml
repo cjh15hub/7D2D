@@ -1157,6 +1157,11 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="cloth" count="2"/>
 </recipe>
 
+<recipe name="firstAidBandage" count="1">
+	<ingredient name="aloeCream" count="1"/>
+	<ingredient name="bandage" count="1"/>
+</recipe>
+
 <recipe name="firstAidKit" count="1">
 	<ingredient name="bloodBag" count="1"/>
 	<ingredient name="grainAlcohol" count="1"/>
