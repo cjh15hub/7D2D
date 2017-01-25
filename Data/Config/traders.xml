@@ -274,9 +274,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="partsRocketLauncher_receiver"/>
 			<item name="partsRocketLauncher_parts"/>
 			<item name="rocketLauncherSchematic"/>
-			<item name="gunChoke"/>
-			<item name="gunSilencer"/>
-			<item name="gunScope"/>
 		</trader_item_group>
 
 		<trader_item_group name="meleeWeapon">
@@ -312,39 +309,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item group="rareMedicine"/>
 		</trader_item_group>
 
-		<trader_item_group name="ValmodQuests" count="1">
-	<item name="challengeSticky"/>
-	<item name="challengeBigBadBosses"/>
-	<item name="challengeAnkleBitters"/>
-	<item name="challengeLightThemUp"/>
-	<item name="challengeDogEatDog"/>
-	<item name="challengeFeedTheMole"/>
-	<item name="challengeTakingNote"/>
-	<item name="challengeHotrod"/>
-	<item name="challengeSurvivorJournal"/>
-	<item name="challengeLockpick"/>
-	<item name="challengeKickz"/>
-	<item name="challengeJock"/>
-	<item name="challengeReaper"/>
-	<item name="challengeWalmart"/>
-		</trader_item_group>
-
-		<trader_item_group name="SpecialQuests" count="2">
-			<item name="challengeWedding"/>
-			<item name="challengeWallet"/>
-			<item name="challengeBooks"/>
-			<item name="challengeChildsHappiness"/>
-			<item name="challengeToilet"/>
-			<item name="challengeWalkman"/>
-			<item name="challengeCondoms"/>
-			<item name="challengeBaseball"/>
-			<item name="challengeCards"/>
-			<item name="challengeCigarettes"/>
-			<item name="challengeArtist"/>
-			<item name="challengeSoap"/>
-			<item name="challengeBong"/>
-		</trader_item_group>
-
 		<trader_item_group name="questChallenge" count="1">
 			<item name="qc_silenceofthelambs" count="1"/>
 			<item name="qc_drunkanddisorderly" count="1"/>
@@ -369,8 +333,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="qt_claude" count="1" prob="0.2"/>
 			<item name="qt_sarah" count="1" prob="0.2"/>
 			<item name="qt_raphael" count="1" prob="0.2"/>
-			<item group="ValmodQuests" count="1"/>
-			<item group="SpecialQuests" count="1"/>
 		</trader_item_group>
 
 		<trader_item_group name="commonBooks" count="1">
@@ -1353,37 +1315,6 @@ workstations
 	<!-- Rented - Vending Machine -->
 	<trader_info id="5" reset_interval="-1" override_buy_markup="1.0" override_sell_markup="1.0" allow_sell="false" rentable="true" rent_cost="2500" rent_time="30" />		
 
-	<!-- Merchant Delivery Box -->
-	<trader_info id="20" reset_interval="2" override_buy_markup="2.5" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
-		<trader_items count="10">
-			<item name="bottledWater" count="1,2"/>
-			<item name="goldenRodTea" count="1,2"/>
-			<item name="redTea" count="1,2"/>
-			<item name="beer" count="1,2"/>
-			<item name="canSoup" count="1,2"/>
-			<item name="lokiMeat" count="1,2"/>
-			<item group="traderAlways"/>
-			<item group="traderGeneral" count="4,8"/>
-			<item group="generalResources" count="9,14"/>
-			<item group="constructionSupplies" count="2,8"/>
-			<item group="tools" count="0,2"/>
-			<item group="commonWeaponParts" count="0,3"/>
-			<item group="militaryWeaponParts" count="1"/>
-			<item group="gunsCommon" count="1" prob="0.3"/>
-			<item group="gunsMilitary" count="1" prob="0.1"/>
-			<item group="ammo" count="2,3" prob="0.4"/>
-			<item group="heavyArmor" count="1" prob="0.4"/>
-			<item group="banditArmor" count="1" prob="0.1"/>
-			<item name="miningHelmet" prob="0.5"/>
-		</trader_items>
-	</trader_info>
-	
-	<!-- Quest Board -->
-	<trader_info id="21" reset_interval="2" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
-		<trader_items count="10">
-			<item group="questChallenge" count="1"/>
-		</trader_items>
-	</trader_info>
 
 	<!-- Trader 99/Test, carries a selection of everything -->
 	<trader_info id="99" min_inventory="50" max_inventory="600" min_items_swapped="13" max_items_swapped="13"
