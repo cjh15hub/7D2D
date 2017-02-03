@@ -2090,7 +2090,7 @@ bioFuel,items,Item,KgNone,Biofuel,Biocarburant,Biosprit,,Biocombustible
 bioFuelDesc,items,Item,KgNone,Biofuel is made at the campfire and can be used to make gasoline.,Le biocarburant se fabrique sur le feu de camp et peut servir à faire de l'essence.,"Biosprit wird am Lagerfeuer gefertigt und kann benutzt werden, um Benzin herzustellen.",,El biocombustible se produce en la fogata y se puede usar para hacer gasolina.
 book,items,Item,KgNone,Book,Livre,Buch,,Libro
 bookDesc,items,Item,KgNone,An old book will get you paper.,Un vieux livre qui vous fournira du papier.,Durch ein altes Buch erhältst du Papier.,,Con un libro viejo puedes conseguir papel.
-bowlDesc,items,Item Food,,Use claw bowls for cooking stews and other various foods.,,
+bowlDesc,items,Item Food,,Use clay bowls for cooking stews and other various foods.,,
 bowl,items,Item Food,,Clay Bowl,,
 bowlMurkyDesc,items,Item Food,,This bowl is full of murky water. Boil it or use purification tablets to clean it.,,
 bowlMurkyWater,items,Item Food,,Bowl of Murky Water,,
