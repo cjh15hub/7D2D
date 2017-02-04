@@ -8223,7 +8223,7 @@ which does not exist, yet. -->
 	<property name="Meshfile" value="Items/Food/emptyJarPrefab" />
 	<property name="Material" value="glass" />
 	<property name="HoldType" value="3" />
-	<property name="Stacknumber" value="15" /> <!-- STK resource -->
+	<property name="Stacknumber" value="500" /> <!-- STK resource -->
 	<property name="Weight" value="15" />
 	<property name="CraftingIngredientTime" value="15" />
 	<property class="Action0">
