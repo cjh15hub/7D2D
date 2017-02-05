@@ -2900,6 +2900,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 <recipe name="concreteBlueDrywallBlock" count="1" scrapable="False" >
 	<ingredient name="woodFrameBlock" count="1"/>
+	<ingredient name="concreteMix" count="10" />
 </recipe>
 <recipe name="dotsWoodBlock" count="1" scrapable="False" >
 	<ingredient name="woodFrameBlock" count="1"/>
