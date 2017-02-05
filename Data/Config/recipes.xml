@@ -2658,18 +2658,22 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 
 <!-- food mod -->
 <recipe name="cheeseburger" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingGrill">
-		<ingredient name="rawMeat" count="1"/>
-		<ingredient name="cornBread" count="2"/>
-		<ingredient name="cheese" count="1" />
-	</recipe>
-	<recipe name="deluxeburger" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingGrill">
-		<ingredient name="rawMeat" count="1"/>
-		<ingredient name="cornBread" count="2"/>
-		<ingredient name="cheese" count="1" />
-		<ingredient name="tomato" count="1" />
-		<ingredient name="lettuce" count="1" />
-		<!-- <ingredient name="mushrooms" count="2" /> -->
-	</recipe>
+	<ingredient name="rawMeat" count="1"/>
+	<ingredient name="cornBread" count="2"/>
+	<ingredient name="cheese" count="1" />
+</recipe>
+<recipe name="deluxeburger" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingGrill">
+	<ingredient name="rawMeat" count="1"/>
+	<ingredient name="cornBread" count="2"/>
+	<ingredient name="cheese" count="1" />
+	<ingredient name="tomato" count="1" />
+	<ingredient name="lettuce" count="1" />
+	<!-- <ingredient name="mushrooms" count="2" /> -->
+</recipe>
+<recipe name="soupTomato" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot" >
+	<ingredient name="bowlWater" count="1"/>
+	<ingredient name="tomato" count="3" />
+</recipe>
 
 <recipe name="mealBreakfast" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot">
 	<ingredient name="rawMeat" count="3"/>
