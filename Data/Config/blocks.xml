@@ -1752,7 +1752,9 @@ group desc for stuff like metal siding
 
 <block id="220" name="woodBlock">
 	<property name="Extends" value="woodMaster" />
-	<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodBlock" /> </property>
+	<property class="UpgradeBlock"> 
+		<property name="ToBlock" value="rWoodBlock" /> 
+	</property>
 	<property name="DowngradeBlock" value="solidWoodFrameBlock" />
 </block>
 
@@ -2484,6 +2486,17 @@ group desc for stuff like metal siding
 	<drop event="Destroy" name="scrapIron" count="10" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
 	<property name="EconomicValue" value="360" /> <!-- disassemble value 355 -->
+	<!-- added to allow upgrade -->
+	<property class="RepairItems"> 
+		<property name="forgedIron" value="1" /> 
+	</property>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="workstationOven" />
+		<property name="Item" value="electricParts" />
+		<property name="ItemCount" value="10" />
+		<property name="UpgradeHitCount" value="4" />
+	</property>
+	<property name="CustomUpgradeSound" value="Crafting/place_block_metal" />
 </block>
 
 <block id="312" name="oldChair">
@@ -8932,6 +8945,17 @@ kind of free
 	<drop event="Harvest" name="shortMetalPipe" count="2" tool_category="Disassemble" />
 	<drop event="Destroy" name="scrapIron" count="10" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
+	<!-- added to allow upgrade -->
+	<property class="RepairItems"> 
+		<property name="forgedIron" value="1" /> 
+	</property>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="workstationOven" />
+		<property name="Item" value="electricParts" />
+		<property name="ItemCount" value="10" />
+		<property name="UpgradeHitCount" value="4" />
+	</property>
+	<property name="CustomUpgradeSound" value="Crafting/place_block_metal" />
 </block>
 
 <block id="1077" name="cntCabinetTop">

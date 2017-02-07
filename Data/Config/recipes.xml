@@ -2684,6 +2684,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="rawMeat" count="3"/>
 	<ingredient name="corn" count="1"/>
 	<ingredient name="potato" count="1"/>
+	<ingredient name="cornBread" count="2" />
 	<ingredient name="dinnerPlate" count="1"/>
 </recipe>
 
@@ -2743,6 +2744,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     <recipe name="workstationOven" count="1" scrapable="False" craft_area="workbench">
         <ingredient name="forgedIron" count="20" />
         <ingredient name="cookingGrill" count="2" />
+		<ingredient name="electricParts" count="10"/><!-- added -->
     </recipe>
     <recipe name="workingCabinetSink" count="1" scrapable="False" craft_area="workbench">
         <ingredient name="wood" count="15" />
@@ -2825,140 +2827,148 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 
 
 
-<!-- Expanded Vanilla Recipes -->
-<recipe name="woodCross" count="1" scrapable="False">
-	<ingredient name="wood" count="10"/>
-</recipe>
-<recipe name="woodCrossCtr" count="1" scrapable="False">
-	<ingredient name="wood" count="10"/>
-</recipe>
-<recipe name="woodStairsBoard" count="1" scrapable="False">
-	<ingredient name="wood" count="10"/>
-</recipe>
-<recipe name="burningBarrel" count="1" scrapable="False">
-	<ingredient name="scrapIron" count="10"/>
-	<ingredient name="wood" count="10"/>
-</recipe>
-<recipe name="Carpet1WoodPainted2Block" count="1" scrapable="False" >
-	<ingredient name="woodFrameBlock" count="1"/>
-</recipe>
-<recipe name="Carpet2WoodPainted2Block" count="1" scrapable="False" >
-	<ingredient name="woodFrameBlock" count="1"/>
-</recipe>
-<recipe name="rug01DrywallBlock" count="1" scrapable="False" >
-	<ingredient name="woodFrameBlock" count="1"/>
-</recipe>
-<recipe name="furRugBlock" count="1" scrapable="False" >
-	<ingredient name="woodFrameBlock" count="1"/>
-</recipe>
-<recipe name="brickPaintedIndustrialTileBlock" count="1" scrapable="False" >
-	<ingredient name="brickBlock" count="1"/>
-</recipe>
-<recipe name="flagstoneDrywallBlock" count="1" scrapable="False" >
-	<ingredient name="brickBlock" count="1"/>
-</recipe>
-<recipe name="brickModernTanDrywallBlock" count="1" scrapable="False" >
-	<ingredient name="brickBlock" count="1"/>
-</recipe>
-<recipe name="brickModernTanBaseboardBlock" count="1" scrapable="False" >
-	<ingredient name="brickBlock" count="1"/>
-</recipe>
-<recipe name="brickModernOrangeDrywallBlock" count="1" scrapable="False" >
-	<ingredient name="brickBlock" count="1"/>
-</recipe>
-<recipe name="tileFloor5Block" count="1" scrapable="False" >
-	<ingredient name="stone" count="1"/>
-</recipe>
-<recipe name="tileFloor3Block" count="1" scrapable="False" >
-	<ingredient name="stone" count="1"/>
-</recipe>
-<recipe name="tileFloor4Block" count="1" scrapable="False" >
-	<ingredient name="stone" count="1"/>
-</recipe>
-<recipe name="concreteTileGreenBlock" count="1" scrapable="False" >
-	<ingredient name="concreteBlock" count="1"/>
-</recipe>
-<recipe name="concreteTileBrownBlock" count="1" scrapable="False" >
-	<ingredient name="concreteBlock" count="1"/>
-</recipe>
-<recipe name="tileIndustrialConcreteBlock" count="1" scrapable="False" >
-	<ingredient name="concreteBlock" count="1"/>
-</recipe>
-<recipe name="tanStuccotileFloor2Block" count="1" scrapable="False" >
-	<ingredient name="woodFrameBlock" count="1"/>
-</recipe>
-<recipe name="Carpet2Block" count="1" scrapable="False" >
-	<ingredient name="woodFrameBlock" count="1"/>
-</recipe>
-<recipe name="tanStuccoCarpet1Block" count="1" scrapable="False" >
-	<ingredient name="woodFrameBlock" count="1"/>
-</recipe>
-<recipe name="tanStuccoCarpet2Block" count="1" scrapable="False" >
-	<ingredient name="woodFrameBlock" count="1"/>
-</recipe>
-<recipe name="OldWoodWoodPainted2Block" count="1" scrapable="False" >
-	<ingredient name="woodFrameBlock" count="1"/>
-</recipe>
-<recipe name="ShinglesAsphaltFlatBlock" count="1" scrapable="False" >
-	<ingredient name="woodFrameBlock" count="1"/>
-</recipe>
-<recipe name="concreteBlueDrywallBlock" count="1" scrapable="False" >
-	<ingredient name="woodFrameBlock" count="1"/>
-	<ingredient name="concreteMix" count="10" />
-</recipe>
-<recipe name="dotsWoodBlock" count="1" scrapable="False" >
-	<ingredient name="woodFrameBlock" count="1"/>
-</recipe>
-<recipe name="dotsGreenShinglesBlock" count="1" scrapable="False" >
-	<ingredient name="woodFrameBlock" count="1"/>
-</recipe>
-<recipe name="woodPainted1Block" count="1" scrapable="False" >
-	<ingredient name="woodFrameBlock" count="1"/>
-</recipe>
-<recipe name="tileFloor2WoodPainted2Block" count="1" scrapable="False" >
-	<ingredient name="woodFrameBlock" count="1"/>
-</recipe>
-<recipe name="tileFloor1WoodPainted2Block" count="1" scrapable="False" >
-	<ingredient name="woodFrameBlock" count="1"/>
-</recipe>
-<recipe name="Carpet1WoodPainted2Block" count="1" scrapable="False" >
-	<ingredient name="woodFrameBlock" count="1"/>
-</recipe>
-<recipe name="tile3Stairs50" count="4" scrapable="False" >
-	<ingredient name="stone" count="4"/>
-</recipe>
-<recipe name="tileFloor5Stairs25" count="4" scrapable="False" >
-	<ingredient name="stone" count="4"/>
-</recipe>
-<recipe name="tileFloor3Stairs25" count="4" scrapable="False" >
-	<ingredient name="stone" count="4"/>
-</recipe>
-<recipe name="tileFloor4Stairs25" count="4" scrapable="False" >
-	<ingredient name="stone" count="4"/>
-</recipe>
-<recipe name="metalRivetBlock" count="1" scrapable="False" >
-	<ingredient name="metalTrussingBlock" count="1"/>
-</recipe>
-<recipe name="metalRivetStairs25" count="4" scrapable="False" >
-	<ingredient name="metalRivetBlock" count="4"/>
-</recipe>
+	<!-- Expanded Vanilla Recipes -->
+	<recipe name="woodCross" count="1" scrapable="False">
+		<ingredient name="wood" count="10"/>
+	</recipe>
+	<recipe name="woodCrossCtr" count="1" scrapable="False">
+		<ingredient name="wood" count="10"/>
+	</recipe>
+	<recipe name="woodStairsBoard" count="1" scrapable="False">
+		<ingredient name="wood" count="10"/>
+	</recipe>
+	<recipe name="burningBarrel" count="1" scrapable="False">
+		<ingredient name="scrapIron" count="10"/>
+		<ingredient name="wood" count="10"/>
+	</recipe>
+	<recipe name="Carpet1WoodPainted2Block" count="1" scrapable="False" >
+		<ingredient name="woodFrameBlock" count="1"/>
+	</recipe>
+	<recipe name="Carpet2WoodPainted2Block" count="1" scrapable="False" >
+		<ingredient name="woodFrameBlock" count="1"/>
+	</recipe>
+	<recipe name="rug01DrywallBlock" count="1" scrapable="False" >
+		<ingredient name="woodFrameBlock" count="1"/>
+	</recipe>
+	<recipe name="furRugBlock" count="1" scrapable="False" >
+		<ingredient name="woodFrameBlock" count="1"/>
+	</recipe>
+	<recipe name="brickPaintedIndustrialTileBlock" count="1" scrapable="False" >
+		<ingredient name="brickBlock" count="1"/>
+	</recipe>
+	<recipe name="flagstoneDrywallBlock" count="1" scrapable="False" >
+		<ingredient name="brickBlock" count="1"/>
+	</recipe>
+	<recipe name="brickModernTanDrywallBlock" count="1" scrapable="False" >
+		<ingredient name="brickBlock" count="1"/>
+	</recipe>
+	<recipe name="brickModernTanBaseboardBlock" count="1" scrapable="False" >
+		<ingredient name="brickBlock" count="1"/>
+	</recipe>
+	<recipe name="brickModernOrangeDrywallBlock" count="1" scrapable="False" >
+		<ingredient name="brickBlock" count="1"/>
+	</recipe>
+	<recipe name="tileFloor5Block" count="1" scrapable="False" >
+		<ingredient name="stone" count="1"/>
+	</recipe>
+	<recipe name="tileFloor3Block" count="1" scrapable="False" >
+		<ingredient name="stone" count="1"/>
+	</recipe>
+	<recipe name="tileFloor4Block" count="1" scrapable="False" >
+		<ingredient name="stone" count="1"/>
+	</recipe>
+	<recipe name="concreteTileGreenBlock" count="1" scrapable="False" >
+		<ingredient name="concreteBlock" count="1"/>
+	</recipe>
+	<recipe name="concreteTileBrownBlock" count="1" scrapable="False" >
+		<ingredient name="concreteBlock" count="1"/>
+	</recipe>
+	<recipe name="tileIndustrialConcreteBlock" count="1" scrapable="False" >
+		<ingredient name="concreteBlock" count="1"/>
+	</recipe>
+	<recipe name="tanStuccotileFloor2Block" count="1" scrapable="False" >
+		<ingredient name="woodFrameBlock" count="1"/>
+	</recipe>
+	<recipe name="Carpet2Block" count="1" scrapable="False" >
+		<ingredient name="woodFrameBlock" count="1"/>
+	</recipe>
+	<recipe name="tanStuccoCarpet1Block" count="1" scrapable="False" >
+		<ingredient name="woodFrameBlock" count="1"/>
+	</recipe>
+	<recipe name="tanStuccoCarpet2Block" count="1" scrapable="False" >
+		<ingredient name="woodFrameBlock" count="1"/>
+	</recipe>
+	<recipe name="OldWoodWoodPainted2Block" count="1" scrapable="False" >
+		<ingredient name="woodFrameBlock" count="1"/>
+	</recipe>
+	<recipe name="ShinglesAsphaltFlatBlock" count="1" scrapable="False" >
+		<ingredient name="woodFrameBlock" count="1"/>
+	</recipe>
+	<recipe name="concreteBlueDrywallBlock" count="1" scrapable="False" >
+		<ingredient name="woodFrameBlock" count="1"/>
+		<ingredient name="concreteMix" count="10" />
+	</recipe>
+	<recipe name="dotsWoodBlock" count="1" scrapable="False" >
+		<ingredient name="woodFrameBlock" count="1"/>
+	</recipe>
+	<recipe name="dotsGreenShinglesBlock" count="1" scrapable="False" >
+		<ingredient name="woodFrameBlock" count="1"/>
+	</recipe>
+	<recipe name="woodPainted1Block" count="1" scrapable="False" >
+		<ingredient name="woodFrameBlock" count="1"/>
+	</recipe>
+	<recipe name="tileFloor2WoodPainted2Block" count="1" scrapable="False" >
+		<ingredient name="woodFrameBlock" count="1"/>
+	</recipe>
+	<recipe name="tileFloor1WoodPainted2Block" count="1" scrapable="False" >
+		<ingredient name="woodFrameBlock" count="1"/>
+	</recipe>
+	<recipe name="Carpet1WoodPainted2Block" count="1" scrapable="False" >
+		<ingredient name="woodFrameBlock" count="1"/>
+	</recipe>
+	<recipe name="tile3Stairs50" count="4" scrapable="False" >
+		<ingredient name="stone" count="4"/>
+	</recipe>
+	<recipe name="tileFloor5Stairs25" count="4" scrapable="False" >
+		<ingredient name="stone" count="4"/>
+	</recipe>
+	<recipe name="tileFloor3Stairs25" count="4" scrapable="False" >
+		<ingredient name="stone" count="4"/>
+	</recipe>
+	<recipe name="tileFloor4Stairs25" count="4" scrapable="False" >
+		<ingredient name="stone" count="4"/>
+	</recipe>
+	<recipe name="metalRivetBlock" count="1" scrapable="False" >
+		<ingredient name="metalTrussingBlock" count="1"/>
+	</recipe>
+	<recipe name="metalRivetStairs25" count="4" scrapable="False" >
+		<ingredient name="metalRivetBlock" count="4"/>
+	</recipe>
 
-<!-- food mod -->
-<recipe name="cheese" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot" craft_time="15">
+	<!-- food mod -->
+	<recipe name="cheese" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot" craft_time="15">
 		<ingredient name="bottledMilk" count="1"/>
 		<ingredient name="mesophilicCultures" count="2"/>
 		<ingredient name="rennet" count="1"/>
 	</recipe>
-	
+
 	<recipe name="tomatoSeed" count="1">
 		<!--farmAlt1<recipe name="plantedTomato1" count="1">farmAlt2-->
 		<ingredient name="tomato" count="1"/>
 	</recipe>
-	
+
 	<recipe name="lettuceSeed" count="1">
 		<!--farmAlt1<recipe name="plantedTomato1" count="1">farmAlt2-->
 		<ingredient name="lettuce" count="1"/>
 	</recipe>
+
+	<!-- machete -->
+	<recipe name="machete" count="1">
+		<ingredient name="forgedSteel" count="20" />
+		<ingredient name="wood" count="1" />
+		<ingredient name="leather" count="2" />
+	</recipe>
+
 
 </recipes>
 <!-- To do (maybe / later)

@@ -4453,3 +4453,6 @@ homeDIYBook2Desc,items,Book,KeyTrunk FrNone GrNone KgNone SpNone,Read this book 
 
 homeDIYBook1,items,Books,KeyTrunk FrNone GrNone KgNone SpNone,Home DIY ( Electrical Appliances ),,,,
 homeDIYBook1Desc,items,Book,KeyTrunk FrNone GrNone KgNone SpNone,Read this book to learn how to make refrigerators and working ovens.,,,,
+
+deluxeburger,items,Item Food,,Haywood's Burger,,,,
+deluxeburgerDesc,items,Item Food,,Formerly known as the Deluxe Burger.,,,,
