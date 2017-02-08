@@ -1286,10 +1286,17 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="bottledRiverWater" count="1"/>
 </recipe>
 
+<!-- added to allow glue from bone shivs -->
+<recipe name="glue" count="1" craft_area="chemistryStation">
+	<ingredient name="boneShiv" count="2"/>
+	<ingredient name="bottledRiverWater" count="1"/>
+</recipe>
+
 <recipe name="glue" count="1" craft_area="campfire" craft_tool="beaker">
 	<ingredient name="femur" count="2"/>
 	<ingredient name="bottledWater" count="1"/>
 </recipe>
+
 
 <recipe name="goldenRodTea" count="1" craft_area="campfire" craft_tool="cookingPot">
 	<ingredient name="goldenrodPlant" count="1"/>
