@@ -6837,7 +6837,7 @@ which does not exist, yet. -->
 <item id="912" name="huntingKnifeBook">
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Recipes_to_learn" value="huntingKnife" />
+		<property name="Recipes_to_learn" value="huntingKnife,machete" />
 		<property name="Skills_to_gain" value="Weapon Smithing" />
 	</property>
 </item>
