@@ -777,7 +777,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="spring" count="5"/>
 	<ingredient name="mechanicalParts" count="5"/>
 </recipe>
-
+<!--
 <recipe name="cntFridge" count="1" craft_area="workbench">
 	<ingredient name="forgedIron" count="10"/>
 	<ingredient name="shortMetalPipe" count="2"/>
@@ -798,7 +798,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="electricParts" count="4"/>
 	<ingredient name="electronicParts" count="1"/>
 </recipe>
-
+-->
 <recipe name="cntMailBox01" count="1">
 	<ingredient name="forgedIron" count="2"/>
 	<ingredient name="wood" count="5"/>
@@ -2781,20 +2781,38 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<recipe name="cntEPSLockers" count="1" scrapable="False" >
 		<ingredient name="forgedIron" count="12" />
 	</recipe>
-	<recipe name="cntEPSFridge" count="1" scrapable="False" >
+	<recipe name="cntEPSFridge" count="1" scrapable="False" craft_area="workbench">
+		<!--
 		<ingredient name="forgedIron" count="15" />
 		<ingredient name="shortMetalPipe" count="3" />
 		<ingredient name="cookingGrill" count="3" />
+		-->
+		<ingredient name="forgedIron" count="15"/>
+		<ingredient name="shortMetalPipe" count="2"/>
+		<ingredient name="electricParts" count="8"/>
+		<ingredient name="electronicParts" count="2"/>
 	</recipe>
-	<recipe name="cntEPSFridgeBottom" count="1" scrapable="False" >
+	<recipe name="cntEPSFridgeBottom" count="1" scrapable="False" craft_area="workbench" >
+		<!--
 		<ingredient name="forgedIron" count="10" />
 		<ingredient name="shortMetalPipe" count="1" />
 		<ingredient name="cookingGrill" count="1" />
+		-->
+		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="shortMetalPipe" count="2"/>
+		<ingredient name="electricParts" count="4"/>
+		<ingredient name="electronicParts" count="1"/>
 	</recipe>
-	<recipe name="cntEPSFridgeTop" count="1" scrapable="False" >
+	<recipe name="cntEPSFridgeTop" count="1" scrapable="False" craft_area="workbench" >
+		<!--
 		<ingredient name="forgedIron" count="10" />
 		<ingredient name="shortMetalPipe" count="1" />
 		<ingredient name="cookingGrill" count="1" />
+		-->
+		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="shortMetalPipe" count="2"/>
+		<ingredient name="electricParts" count="4"/>
+		<ingredient name="electronicParts" count="1"/>
 	</recipe>
 	<recipe name="cntEPSBookcase" count="1" scrapable="False" >
 		<ingredient name="wood" count="10"  />
