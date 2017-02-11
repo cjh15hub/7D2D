@@ -8182,6 +8182,15 @@ which does not exist, yet. -->
 		<property name="Sound_start" value="swoosh" />
 	</property>
 	-->
+	<property class="Action0"><!-- Allow can to be filled at a working sink -->
+		<!-- UseAction -->
+		<property name="Class" value="ExchangeItem" />
+		<property name="Delay" value="1.0" />
+		<property name="Change_item_to" value="canMurkyWater" />
+		<property name="Focused_blockname_1" value="workingCabinetSink" />
+		<property name="Focused_blockname_2" value="workingGranitSink" />
+		<property name="Sound_start" value="UseActions/bucketfill_water" />
+	</property>
 	<property class="Action1"> <!-- UseAction -->
 		<property name="Class" value="ExchangeItem" />
 		<property name="Delay" value="1.0" />
