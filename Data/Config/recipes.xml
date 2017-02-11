@@ -2969,6 +2969,15 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="lettuce" count="1"/>
 	</recipe>
 
+	<!-- Appliances -->
+	<recipe name="repairKitAppliances" count="1">
+		<ingredient name="electricParts" count="5"/>
+		<ingredient name="electronicParts" count="2"/>
+		<ingredient name="forgedIron" count="1" />
+		<ingredient name="ductTape" count="1" />
+		<ingredient name="scrapPlastics" count="2" />
+	</recipe>
+
 	<!-- machete -->
 	<recipe name="machete" count="1">
 		<ingredient name="forgedSteel" count="20" />
